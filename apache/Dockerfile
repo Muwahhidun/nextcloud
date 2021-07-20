@@ -9,6 +9,7 @@ RUN set -ex; \
         ffmpeg \
         imagemagick \
         php-imagick \
+        libmagickcore-6.q16-3-extra \
         ghostscript \
     ; \
     rm -rf /var/lib/apt/lists/*
