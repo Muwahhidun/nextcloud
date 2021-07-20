@@ -8,6 +8,7 @@ RUN set -ex; \
     apt-get install -y --no-install-recommends \
         ffmpeg \
         imagemagick \
+        php-imagick \
         ghostscript \
     ; \
     rm -rf /var/lib/apt/lists/*
