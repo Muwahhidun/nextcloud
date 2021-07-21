@@ -8,7 +8,6 @@ RUN set -ex; \
     apt-get install -y --no-install-recommends \
         ffmpeg \
         imagemagick \
-        php-imagick \
         libmagickcore-6.q16-3-extra \
         ghostscript \
     ; \
